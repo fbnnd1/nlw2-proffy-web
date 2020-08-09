@@ -14,8 +14,8 @@ function TeacherList() {
 
     const [teachers, setTeachers] = useState([]);
 
-    const [subject, setSubject] = useState('');
-    const [week_day, setWeekDay] = useState('');
+    const [subject, setSubject] = useState("");
+    const [week_day, setWeekDay] = useState("");
     const [time, setTime] = useState('');
 
     async function searchTeacher(e: FormEvent) {
@@ -37,7 +37,7 @@ function TeacherList() {
         <div id="page-teacher-list" className="container1">
             <PageHeader title="Estes são os proffys disponíveis">
                 
-                <form id="search-teachers">
+                <form id="search-teachers" onSubmit={searchTeacher}>
 
                 <Select 
                         name="subject" 
