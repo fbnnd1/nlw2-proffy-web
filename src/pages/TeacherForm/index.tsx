@@ -124,8 +124,8 @@ function TeacherForm() {
                             </button>
                         </legend>
                         {scheduleItems.map( (scheduleItem, index) => {
-                            return (
-                                <div key={scheduleItem.week_day} className="schedule-item">
+                            return ( //index no lugar de scheduleItem.week_day como chave
+                                <div key={index} className="schedule-item">
                                     <Select 
                                         name="week_day" 
                                         onChange={e => setScheduleItemValue(index, "week_day", e.target.value)}
