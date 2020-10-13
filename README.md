@@ -1,44 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto Proffy
 
-## Available Scripts
+## Descrição Resumida
 
-In the project directory, you can run:
+Este repositório faz parte do projeto Proffy, desenvolvido durante a <a href="https://nextlevelweek.com/inscricao/2/" target="_blank">Next Level Week #2</a> promovida pela <a href="https://rocketseat.com.br" target="_blank">RocketSeat</a>.
 
-### `npm start`
+**Nota**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A "Next Level Week" é um conjunto de aulas práticas em vídeo em que é desenvolvido um projeto.
+As aulas são divididas em sub-conjuntos denominados "trilhas". A trilha desse projeto é a "Omnistack".
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Detalhes do projeto
 
-### `npm test`
+### Ideia Principal
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Plataforma onde estudantes podem encontrar professores para obterem aulas particulares. A plataforma irá atuar como uma ponte entre professores e estudantes.
 
-### `npm run build`
+![Imagem que resume a ideia do sistema](doc-img/ideia-proffy.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Stakeholders
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* **Educador(a) ou Professor(a):** Profissional que oferece aulas particulares usando o sistema.
+* **Estudante:** Pessoa que busca por aulas particulares usando o sistema.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Nota**
 
-### `npm run eject`
+*Stakeholders* são sistemas ou pessoas afetadas pelo sistema desenvolvido.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Funcionalidades
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Estudante
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Buscar aulas
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Professor(a)
 
-## Learn More
+* Cadastrar aulas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Telas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Landing Page - Home - Página Inicial
+
+![Imagem da Landing Page](doc-img/proffy-home.png)
+
+Página de Busca
+
+![Imagem da página de busca](doc-img/proffy-ter-aulas.png)
+
+Página de Cadastro de aulas
+
+![Imagem da página de cadastro](doc-img/proffy-dar-aulas.png)
+
+**Nota**
+
+O Layout das telas do site e aplicativo são semelhantes.
+
+## Links Externos
+
+* RocketSeat: [https://rocketseat.com.br](https://rocketseat.com.br)
+
+* Site Oficial "Next Level Week #2": [https://nextlevelweek.com/](https://nextlevelweek.com/)
+
+## Este Repositório
+
+Este repositório contém o sistema web deste projeto, isto é, um sistema acessado por um navegador, como o Mozilla Firefox ou Google Chrome.
+
+## Demais Repositórios do projeto
+
+* API: 
+[https://github.com/fbnnd1/nlw2-proffy-server](https://github.com/fbnnd1/nlw2-proffy-server)
+
+* Aplicativo para celular: 
+[https://github.com/fbnnd1/nlw2-proffy-mobile](https://github.com/fbnnd1/nlw2-proffy-mobile)
